@@ -4,7 +4,8 @@ steps:
     integrationFlowId: test1
     integrationFlowVersion: 1.0.8
     downloadPath: ./iflows
-  
+
+steps:  
   integrationArtifactUpload:
     cpiApiServiceKeyCredentialsId: roverpocServiceKeyCredential
     integrationFlowId: test1
