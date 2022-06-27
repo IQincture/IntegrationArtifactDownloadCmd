@@ -4,3 +4,10 @@ steps:
     integrationFlowId: test1
     integrationFlowVersion: 1.0.8
     downloadPath: ./iflows
+  
+  integrationArtifactUpload:
+    cpiApiServiceKeyCredentialsId: roverpocServiceKeyCredential
+    integrationFlowId: test1
+    integrationFlowName: test1
+    packageId: trailiflow
+    filePath: ./iflows/test1.zip
