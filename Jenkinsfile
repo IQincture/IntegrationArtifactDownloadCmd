@@ -22,8 +22,8 @@ node() {
 	  integrationArtifactDownload script: this
   }
 
-  stage('deployIntegrationArtifact Command') {
-       integrationArtifactDeploy script: this
+  stage('uploadIntegrationArtifact Command') {
+       integrationArtifactUpload script: this
   }
 
 }
